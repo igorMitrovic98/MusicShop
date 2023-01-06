@@ -160,7 +160,7 @@
     <value>2</value>
   </data>
   <data name="btnManufacturers.Text" xml:space="preserve">
-    <value>Manufacturers</value>
+    <value>Add new manufacturer</value>
   </data>
   <data name="&gt;&gt;btnManufacturers.Name" xml:space="preserve">
     <value>btnManufacturers</value>
@@ -190,7 +190,7 @@
     <value>3</value>
   </data>
   <data name="btnSuppliers.Text" xml:space="preserve">
-    <value>Suppliers</value>
+    <value>Add new supplier</value>
   </data>
   <data name="&gt;&gt;btnSuppliers.Name" xml:space="preserve">
     <value>btnSuppliers</value>
@@ -435,24 +435,6 @@
   <data name="&gt;&gt;lblUser.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16.2pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 83</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 32</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>label1</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
@@ -486,16 +468,34 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="picBoxWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 106</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="picBoxWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>453, 197</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt, style=Bold</value>
   </data>
-  <data name="picBoxWelcome.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 83</value>
   </data>
-  <data name="picBoxWelcome.TabIndex" type="System.Int32, mscorlib">
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 32</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;picBoxWelcome.Name" xml:space="preserve">
@@ -529,6 +529,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picBoxWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 106</value>
+  </data>
+  <data name="picBoxWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 197</value>
+  </data>
+  <data name="picBoxWelcome.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picBoxWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picBoxWelcome.Name" xml:space="preserve">
+    <value>picBoxWelcome</value>
+  </data>
+  <data name="&gt;&gt;picBoxWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picBoxWelcome.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;picBoxWelcome.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">

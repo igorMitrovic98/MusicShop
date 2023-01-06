@@ -46,6 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Drums\AddUpdateDrumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Drums\AddUpdateDrumsForm.Designer.cs">
+      <DependentUpon>AddUpdateDrumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Drums\AllDrumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Drums\AllDrumsForm.Designer.cs">
+      <DependentUpon>AllDrumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Guitars\AddUpdateGuitarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Guitars\AddUpdateGuitarForm.Designer.cs">
+      <DependentUpon>AddUpdateGuitarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Guitars\AllGuitarsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Guitars\AllGuitarsForm.Designer.cs">
+      <DependentUpon>AllGuitarsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\AddNewManufacturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\AddNewManufacturer.Designer.cs">
+      <DependentUpon>AddNewManufacturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pianos\AddUpdatePianoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pianos\AddUpdatePianoForm.Designer.cs">
+      <DependentUpon>AddUpdatePianoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pianos\AllPianosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pianos\AllPianosForm.Designer.cs">
+      <DependentUpon>AllPianosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Staff\AddMemberForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +124,12 @@
     <Compile Include="Forms\Staff\UpdateMemberForm.Designer.cs">
       <DependentUpon>UpdateMemberForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Suppliers\AddSupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Suppliers\AddSupplierForm.Designer.cs">
+      <DependentUpon>AddSupplierForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +138,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Drums\AddUpdateDrumsForm.resx">
+      <DependentUpon>AddUpdateDrumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Drums\AllDrumsForm.resx">
+      <DependentUpon>AllDrumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Guitars\AddUpdateGuitarForm.resx">
+      <DependentUpon>AddUpdateGuitarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Guitars\AllGuitarsForm.resx">
+      <DependentUpon>AllGuitarsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\AddNewManufacturer.resx">
+      <DependentUpon>AddNewManufacturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pianos\AddUpdatePianoForm.resx">
+      <DependentUpon>AddUpdatePianoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pianos\AllPianosForm.resx">
+      <DependentUpon>AllPianosForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Staff\AddMemberForm.resx">
       <DependentUpon>AddMemberForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Staff\UpdateMemberForm.resx">
       <DependentUpon>UpdateMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Suppliers\AddSupplierForm.resx">
+      <DependentUpon>AddSupplierForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
