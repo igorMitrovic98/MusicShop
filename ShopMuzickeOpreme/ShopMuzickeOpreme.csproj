@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\BasketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BasketForm.Designer.cs">
+      <DependentUpon>BasketForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Drums\AddUpdateDrumsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +76,47 @@
     <Compile Include="Forms\Guitars\AllGuitarsForm.Designer.cs">
       <DependentUpon>AllGuitarsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Manufacturers\AddNewManufacturer.cs">
+    <Compile Include="Forms\Instruments\ShowAllInstruments.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Manufacturers\AddNewManufacturer.Designer.cs">
-      <DependentUpon>AddNewManufacturer.cs</DependentUpon>
+    <Compile Include="Forms\Instruments\ShowAllInstruments.Designer.cs">
+      <DependentUpon>ShowAllInstruments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Instruments\ShowInstrumentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Instruments\ShowInstrumentForm.Designer.cs">
+      <DependentUpon>ShowInstrumentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\AddNewManufacturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\AddNewManufacturerForm.Designer.cs">
+      <DependentUpon>AddNewManufacturerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChooseDrumsManufacturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChooseDrumsManufacturerForm.Designer.cs">
+      <DependentUpon>ChooseDrumsManufacturerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChooseGuitarManufacturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChooseGuitarManufacturerForm.Designer.cs">
+      <DependentUpon>ChooseGuitarManufacturerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChoosePianoManufacturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ChoosePianoManufacturerForm.Designer.cs">
+      <DependentUpon>ChoosePianoManufacturerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ShowManufacturerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Manufacturers\ShowManufacturerForm.Designer.cs">
+      <DependentUpon>ShowManufacturerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Pianos\AddUpdatePianoForm.cs">
       <SubType>Form</SubType>
@@ -112,11 +154,11 @@
     <Compile Include="Forms\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Staff\StaffForm.cs">
+    <Compile Include="Forms\Staff\ShowStaffForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Staff\StaffForm.Designer.cs">
-      <DependentUpon>StaffForm.cs</DependentUpon>
+    <Compile Include="Forms\Staff\ShowStaffForm.Designer.cs">
+      <DependentUpon>ShowStaffForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Staff\UpdateMemberForm.cs">
       <SubType>Form</SubType>
@@ -138,6 +180,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\BasketForm.resx">
+      <DependentUpon>BasketForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Drums\AddUpdateDrumsForm.resx">
       <DependentUpon>AddUpdateDrumsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,8 +195,26 @@
     <EmbeddedResource Include="Forms\Guitars\AllGuitarsForm.resx">
       <DependentUpon>AllGuitarsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Manufacturers\AddNewManufacturer.resx">
-      <DependentUpon>AddNewManufacturer.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Instruments\ShowAllInstruments.resx">
+      <DependentUpon>ShowAllInstruments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Instruments\ShowInstrumentForm.resx">
+      <DependentUpon>ShowInstrumentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\AddNewManufacturerForm.resx">
+      <DependentUpon>AddNewManufacturerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\ChooseDrumsManufacturerForm.resx">
+      <DependentUpon>ChooseDrumsManufacturerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\ChooseGuitarManufacturerForm.resx">
+      <DependentUpon>ChooseGuitarManufacturerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\ChoosePianoManufacturerForm.resx">
+      <DependentUpon>ChoosePianoManufacturerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Manufacturers\ShowManufacturerForm.resx">
+      <DependentUpon>ShowManufacturerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Pianos\AddUpdatePianoForm.resx">
       <DependentUpon>AddUpdatePianoForm.cs</DependentUpon>
@@ -171,8 +234,8 @@
     <EmbeddedResource Include="Forms\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Staff\StaffForm.resx">
-      <DependentUpon>StaffForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Staff\ShowStaffForm.resx">
+      <DependentUpon>ShowStaffForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Staff\UpdateMemberForm.resx">
       <DependentUpon>UpdateMemberForm.cs</DependentUpon>
@@ -220,6 +283,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shopping-basket-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-print-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-remove-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

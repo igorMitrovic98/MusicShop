@@ -1,6 +1,6 @@
 ﻿namespace ShopMuzickeOpreme.Forms.Manufacturers
 {
-    partial class AddNewManufacturer
+    partial class AddNewManufacturerForm
     {
         /// <summary>
         /// Required designer variable.

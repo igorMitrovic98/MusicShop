@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopMuzickeOpreme.Forms.Manufacturers
 {
-    public partial class AddNewManufacturer : Form
+    public partial class ChooseDrumsManufacturerForm : Form
     {
-        public AddNewManufacturer()
+        public ChooseDrumsManufacturerForm()
         {
             InitializeComponent();
         }

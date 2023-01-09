@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopMuzickeOpreme.Forms
 {
-    public partial class StaffForm : Form
+    public partial class BasketForm : Form
     {
-        public StaffForm()
+        public BasketForm()
         {
             InitializeComponent();
         }

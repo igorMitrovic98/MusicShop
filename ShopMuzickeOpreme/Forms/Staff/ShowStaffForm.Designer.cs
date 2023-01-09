@@ -1,6 +1,6 @@
 ﻿namespace ShopMuzickeOpreme.Forms
 {
-    partial class StaffForm
+    partial class ShowStaffForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StaffForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowStaffForm));
             this.lvStaff = new System.Windows.Forms.ListView();
-            this.Name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Nname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Surname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.JMBG = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.DateOfBirth = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -48,7 +48,7 @@
             // lvStaff
             // 
             this.lvStaff.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Name,
+            this.Nname,
             this.Surname,
             this.JMBG,
             this.DateOfBirth,
@@ -60,10 +60,11 @@
             this.lvStaff.Name = "lvStaff";
             this.lvStaff.UseCompatibleStateImageBehavior = false;
             this.lvStaff.View = System.Windows.Forms.View.Details;
+            this.lvStaff.SelectedIndexChanged += new System.EventHandler(this.lvStaff_SelectedIndexChanged);
             // 
-            // Name
+            // Nname
             // 
-            resources.ApplyResources(this.Name, "Name");
+            resources.ApplyResources(this.Nname, "Nname");
             // 
             // Surname
             // 
@@ -127,7 +128,7 @@
             resources.ApplyResources(this.lblSearch, "lblSearch");
             this.lblSearch.Name = "lblSearch";
             // 
-            // StaffForm
+            // ShowStaffForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,7 +143,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "StaffForm";
+            this.Name = "ShowStaffForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,7 +152,7 @@
         #endregion
 
         private System.Windows.Forms.ListView lvStaff;
-        private System.Windows.Forms.ColumnHeader Name;
+        private System.Windows.Forms.ColumnHeader Nname;
         private System.Windows.Forms.ColumnHeader Surname;
         private System.Windows.Forms.ColumnHeader JMBG;
         private System.Windows.Forms.ColumnHeader DateOfBirth;
