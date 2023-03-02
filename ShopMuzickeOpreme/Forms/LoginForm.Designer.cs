@@ -45,6 +45,7 @@
             this.textUsername.Name = "textUsername";
             this.textUsername.Size = new System.Drawing.Size(256, 38);
             this.textUsername.TabIndex = 1;
+            this.textUsername.TextChanged += new System.EventHandler(this.textUsername_TextChanged);
             // 
             // textPassword
             // 
@@ -65,6 +66,7 @@
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "LOGIN";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnEye
             // 
@@ -74,6 +76,7 @@
             this.btnEye.Size = new System.Drawing.Size(43, 38);
             this.btnEye.TabIndex = 3;
             this.btnEye.UseVisualStyleBackColor = true;
+            this.btnEye.Click += new System.EventHandler(this.btnEye_Click);
             // 
             // pictureBox1
             // 
